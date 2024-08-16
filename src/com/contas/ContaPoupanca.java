@@ -1,3 +1,4 @@
+package com.contas;
 
 public class ContaPoupanca extends Conta {
 
@@ -7,7 +8,11 @@ public class ContaPoupanca extends Conta {
 
 	@Override
 	public void imprimirExtrato() {
-		System.out.println("=== Extrato Conta Poupança ===");
+		System.out.println("=== Extrato Conta Poupanï¿½a ===");
 		super.imprimirInfosComuns();
+	}
+	
+	public void renderJuros() {
+		super.saldo = super.saldo * 0.07 + super.saldo;
 	}
 }

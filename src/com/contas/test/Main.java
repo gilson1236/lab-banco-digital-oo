@@ -1,3 +1,8 @@
+package com.contas.test;
+import com.contas.Cliente;
+import com.contas.Conta;
+import com.contas.ContaCorrente;
+import com.contas.ContaPoupanca;
 
 public class Main {
 
@@ -12,6 +17,8 @@ public class Main {
 		cc.transferir(100, poupanca);
 		
 		cc.imprimirExtrato();
+		poupanca.imprimirExtrato();
+		((ContaPoupanca)poupanca).renderJuros();
 		poupanca.imprimirExtrato();
 	}
 

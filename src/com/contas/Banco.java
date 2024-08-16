@@ -1,3 +1,4 @@
+package com.contas;
 import java.util.List;
 
 public class Banco {

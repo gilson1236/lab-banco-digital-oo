@@ -1,3 +1,4 @@
+package com.contas;
 
 public abstract class Conta implements IConta {
 	

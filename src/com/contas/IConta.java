@@ -1,3 +1,4 @@
+package com.contas;
 
 public interface IConta {
 	
